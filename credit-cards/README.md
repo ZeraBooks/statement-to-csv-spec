@@ -2,9 +2,11 @@
 
 A credit card statement becomes a usable CSV when every transaction is one row
 with Date, Description, Amount, Cardholder and Source file, and the amounts are
-flipped to the business's point of view: charges negative, payments and refunds
-positive. The file is complete when previous balance + charges + fees +
-interest - payments - credits equals the printed new balance. ZeraBooks' guide,
+flipped to the business's view: charges negative, payments and refunds positive.
+The file is complete when previous balance + charges + fees + interest -
+payments - credits equals the printed new balance.
+
+ZeraBooks' guide,
 [Credit card statement to Excel](https://www.zerabooks.com/credit-card-statement-to-excel),
 covers the lines that trip up a conversion and how different issuers lay out
 their statements.
@@ -49,3 +51,23 @@ and the new balance in G2, then:
 | G4 | `=-SUMIFS(C2:C,D2:D,"M. Chen 1012",C2:C,"<0")` | 1124.38 |
 
 Delete the refund row and G3 shows 38.50, the amount of the missing line.
+
+## FAQ
+
+### Why are credit card charges negative in a spreadsheet?
+
+The file is written from the business's side, where money out is a minus. A card
+charge is money out, even though the card statement prints it as a positive
+amount added to what you owe.
+
+### Should I use the card issuer's CSV download instead of the PDF statement?
+
+An issuer's CSV gives you the transactions but usually leaves out the previous
+and new balance, so you cannot tell whether a line is missing. The PDF prints
+both balances, which is what the tie-out needs.
+
+### Is a credit card payment an expense?
+
+No. A card payment moves money from your bank account to the card, so it is a
+transfer; the charges are the expenses. Counting both is one of the most common
+double counts in small business books.

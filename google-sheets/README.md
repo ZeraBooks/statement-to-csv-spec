@@ -1,5 +1,10 @@
 # Bank statement CSV in Google Sheets
 
+Google Sheets can't import a PDF, so a bank statement goes in as a CSV: set
+the spreadsheet locale to United States, use File, Import, Upload with a comma
+separator, and keep number conversion on. Then check that the opening balance
+plus the Amount column equals the printed closing balance.
+
 How to import a bank statement CSV into Google Sheets so dates and amounts
 arrive as real values, and a set of formulas that check the rows against the
 statement's printed balances. Step-by-step guide with screenshots:
@@ -53,3 +58,21 @@ amount of the missing line.
   from 0.
 - A description beginning with `=` or `+` should carry a leading apostrophe so
   Sheets keeps it as text.
+
+## FAQ
+
+### Can Google Sheets import a PDF bank statement?
+
+No. File, Import accepts CSV, TSV, text and spreadsheet files, not PDFs, so the
+statement has to be converted to one of those first.
+
+### Why are my dates wrong after importing a bank statement into Google Sheets?
+
+The spreadsheet's locale reads dates day first. In a file written as MM/DD/YYYY,
+03/02/2026 is March 2, so set File, Settings, Locale to United States and import
+again.
+
+### Can I add a category column to a bank statement in Google Sheets?
+
+Yes. Add it after the import, to the right of Amount, so the check formulas keep
+pointing at the right columns.

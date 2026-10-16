@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite them as below."
+title: "Statement to CSV spec"
+type: dataset
+authors:
+  - name: "ZeraBooks"
+    website: "https://www.zerabooks.com"
+url: "https://github.com/ZeraBooks/statement-to-csv-spec"
+repository-code: "https://github.com/ZeraBooks/statement-to-csv-spec"
+license: CC-BY-4.0
+abstract: "A bank or credit card statement converts cleanly to CSV when each transaction is one row with a date, a description and a single signed amount, money out negative. For a bank account, the rows are complete when the opening balance plus the sum of the amounts equals the closing balance printed on the statement. This repo sets out those column layouts, with fictional sample files that tie."
+keywords:
+  - bank-statement
+  - credit-card
+  - csv
+  - google-sheets
+  - spreadsheet
+  - bookkeeping
+  - accounting
+  - data-format
+date-released: 2026-10-15
