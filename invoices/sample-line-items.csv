@@ -1,0 +1,6 @@
+Invoice Number,Invoice Date,Vendor,Line,Description,Quantity,Unit Price,Line Total,Tax,Invoice Total
+INV-2041,2026-09-03,Harbor Paper Supply,1,Kraft mailer boxes (case of 50),4,38.50,154.00,,
+INV-2041,2026-09-03,Harbor Paper Supply,2,Packing tape 48mm (6 pack),3,14.25,42.75,,
+INV-2041,2026-09-03,Harbor Paper Supply,3,Shipping labels 4x6 (roll),2,22.00,44.00,19.26,260.01
+INV-2042,2026-09-11,Northline Print Co,1,Business cards (500),1,64.00,64.00,,
+INV-2042,2026-09-11,Northline Print Co,2,Flyers A5 (1000),1,118.00,118.00,14.56,196.56

@@ -12,6 +12,8 @@ that tie.
 | [`google-sheets/`](google-sheets/) | A standard layout for statement rows in Google Sheets, import settings, check formulas and a sample file | [How to get a bank statement into Google Sheets](https://www.zerabooks.com/bank-statement-to-google-sheets) |
 | [`credit-cards/`](credit-cards/) | Card statement rows with charges negative and payments positive, a tie-out formula and a sample that ties | [Converting a credit card statement to Excel](https://www.zerabooks.com/credit-card-statement-to-excel) |
 | [`xero/`](xero/) | The five-column layout for a Xero statement import, a sample that ties and a pre-import checker | [Importing a PDF bank statement into Xero](https://www.zerabooks.com/bank-statement-to-xero) |
+| [`invoices/`](invoices/) | Invoice line items one row per line, with the two checks that catch misreads | [Invoice PDF to Excel](https://www.zerabooks.com/invoice-to-excel) |
+| [`financial-statements/`](financial-statements/) | Balance sheet and P&L lines as Statement, Section, Line, Year, Amount, with a two-year sample that balances | [Financial statements to Excel](https://www.zerabooks.com/financial-statements-to-excel) |
 
 All figures are fictional.
 
