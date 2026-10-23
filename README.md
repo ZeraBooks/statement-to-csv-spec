@@ -12,6 +12,9 @@ that tie.
 | [`google-sheets/`](google-sheets/) | A standard layout for statement rows in Google Sheets, import settings, check formulas and a sample file | [How to get a bank statement into Google Sheets](https://www.zerabooks.com/bank-statement-to-google-sheets) |
 | [`credit-cards/`](credit-cards/) | Card statement rows with charges negative and payments positive, a tie-out formula and a sample that ties | [Converting a credit card statement to Excel](https://www.zerabooks.com/credit-card-statement-to-excel) |
 | [`xero/`](xero/) | The five-column layout for a Xero statement import, a sample that ties and a pre-import checker | [Importing a PDF bank statement into Xero](https://www.zerabooks.com/bank-statement-to-xero) |
+| [`wave/`](wave/) | Wave's 3-column upload layout, its card sign rule (purchases positive) and a card sample that ties | [Wave bank statement import](https://www.zerabooks.com/import/wave-bank-statement-import) |
+| [`sage/`](sage/) | Sage Accounting's header order (Date, Description, Money in, Money out) and a chequing sample that ties | [Sage bank statement import](https://www.zerabooks.com/import/sage-bank-statement-import) |
+| [`zoho-books/`](zoho-books/) | The Single Column with Negative Values layout for Zoho Books and a checking sample that ties | [Zoho Books bank statement import](https://www.zerabooks.com/import/zoho-books-bank-statement-import) |
 | [`invoices/`](invoices/) | Invoice line items one row per line, with the two checks that catch misreads | [Invoice PDF to Excel](https://www.zerabooks.com/invoice-to-excel) |
 | [`financial-statements/`](financial-statements/) | Balance sheet and P&L lines as Statement, Section, Line, Year, Amount, with a two-year sample that balances | [Financial statements to Excel](https://www.zerabooks.com/financial-statements-to-excel) |
 
